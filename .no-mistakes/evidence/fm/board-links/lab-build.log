@@ -1,0 +1,9 @@
+$ fm-bearings-board.sh build payload.json
+board: /var/folders/wq/_h6f0f796zd6cd259vf7sm8h0000gn/T//fm-lab.6QVE8y/.lavish/bearings-board.html
+session:
+  status: opened
+session: live
+served: /var/folders/wq/_h6f0f796zd6cd259vf7sm8h0000gn/T//fm-lab.6QVE8y/.lavish/bearings-board.html
+bound: lavish-fea1719b58af5249
+armed: lavish-fea1719b58af5249
+exit=0

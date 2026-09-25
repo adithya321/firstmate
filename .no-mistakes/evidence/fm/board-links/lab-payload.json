@@ -1,0 +1,99 @@
+{
+  "schema": "fm-bearings-board.v1",
+  "home": "lab-home",
+  "generated": "2026-09-25T00:00Z",
+  "prs_live": true,
+  "captains_call": [
+    {
+      "key": "merge-demo",
+      "type": "merge",
+      "id": "task-merge",
+      "repo": "example-repo",
+      "title": "Merge the widget refactor",
+      "risk": "low",
+      "detail": "CI green",
+      "pr_url": "https://github.com/example-org/example-repo/pull/41",
+      "ticket": "DEMO-101",
+      "ticket_url": "https://tracker.example.com/issue/DEMO-101",
+      "options": [
+        {
+          "value": "merge",
+          "label": "Merge"
+        },
+        {
+          "value": "hold",
+          "label": "Hold"
+        }
+      ]
+    },
+    {
+      "key": "decide-demo",
+      "type": "decision",
+      "id": "task-decide",
+      "repo": "example-repo",
+      "title": "Pick a cache strategy",
+      "about": "cache",
+      "decide": "which",
+      "options": [
+        {
+          "value": "lru",
+          "label": "LRU"
+        },
+        {
+          "value": "ttl",
+          "label": "TTL"
+        }
+      ],
+      "ticket": "DEMO-102",
+      "ticket_url": "https://tracker.example.com/issue/DEMO-102",
+      "pr_url": "https://github.com/example-org/example-repo/pull/42",
+      "recommend_value": "lru"
+    }
+  ],
+  "underway": [
+    {
+      "id": "task-uw",
+      "name": "DEMO-103 Wire the export button",
+      "repo": "example-repo",
+      "state": "running",
+      "doing": "implementing",
+      "kind": "ship",
+      "ticket": "DEMO-103",
+      "ticket_url": "https://tracker.example.com/issue/DEMO-103",
+      "pr_url": "https://github.com/example-org/example-repo/pull/43"
+    },
+    {
+      "id": "task-uw-nolink",
+      "name": "Unlinked scout",
+      "repo": "example-repo",
+      "state": "running",
+      "doing": "reading",
+      "kind": "scout"
+    }
+  ],
+  "landed": [
+    {
+      "id": "task-ld",
+      "repo": "example-repo",
+      "what": "Fix the login redirect",
+      "owner": "crew",
+      "ticket": "DEMO-104",
+      "ticket_url": "https://tracker.example.com/issue/DEMO-104",
+      "pr_url": "https://github.com/example-org/example-repo/pull/44/"
+    }
+  ],
+  "charted": [
+    {
+      "id": "task-ch",
+      "repo": "example-repo",
+      "title": "Add dark mode",
+      "reason": "queued",
+      "dispatchable": true,
+      "filed": "2026-09-20",
+      "ticket_url": "https://tracker.example.com/issue/DEMO-105",
+      "pr_url": "https://github.com/example-org/example-repo/pull/45"
+    }
+  ],
+  "charted_more": 0,
+  "charted_warning_more": 0
+}

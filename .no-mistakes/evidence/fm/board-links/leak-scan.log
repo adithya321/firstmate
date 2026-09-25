@@ -1,0 +1,37 @@
+$ git diff f54aa00 HEAD + git log f54aa00..HEAD, case-insensitive scan for employer identifiers
+138:       and (optional_string("freeform_hint"))
+418:Adithya Jayasankar adithya.j@adithya321.me
+421:Adithya Jayasankar adithya.j@adithya321.me
+--- all URLs/hosts in added lines:
+http://tracker.example/issue/ABC-1
+https://forge.example/org/sample/pull/10
+https://forge.example/org/sample/pull/41
+https://forge.example/org/sample/pull/42
+https://forge.example/org/sample/pull/43
+https://forge.example/org/sample/pull/44
+https://forge.example/org/sample/pull/45
+https://forge.example/org/sample/pull/7
+https://forge.example/org/sample/pull/8
+https://forge.example/org/sample/pull/9
+https://tracker.example/issue/ABC-101
+https://tracker.example/issue/ABC-102
+https://tracker.example/issue/ABC-103
+https://tracker.example/issue/ABC-104
+https://tracker.example/issue/ABC-105
+https://tracker.example/issue/ABC-123
+https://tracker.example/issue/ABC-124
+https://tracker.example/issue/ABC-125
+https://tracker.example/issue/ABC-126
+https://tracker.example/issue/ABC-127
+--- ticket-shaped ids in added lines:
+ABC-1
+ABC-101
+ABC-102
+ABC-103
+ABC-104
+ABC-105
+ABC-123
+ABC-124
+ABC-125
+ABC-126
+ABC-127
